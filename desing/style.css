@@ -169,7 +169,7 @@ figure {
   background-size: 38px 38px;
 }
 .location-link.prado {
-  background-image: url('../img/posicion.svg');
+  background-image: url('../img/posicion.svg'); /* cambiar color */
 }
 
 .footer {
