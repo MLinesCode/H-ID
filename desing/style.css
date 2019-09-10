@@ -41,7 +41,7 @@ figure {
   width:26px;
   right:10%;
   top: 4%;
-  -webkit-transform:translateY(-50%);
+  /* -webkit-transform:translateY(-50%); */
           transform:translateY(-50%);
 }
 #hamburger .line {
@@ -119,9 +119,10 @@ figure {
 }
 
 .ranking-stars {
-  margin-left: 36%;
-  margin-right: 36%; /* medidas preeliminares */
+  display: block; /* colocacion */
+  margin: auto; /* medidas preeliminares */
   padding: 1.4%;
+  text-align: center; /* colocacion */
 }
 
 .ranking-text {
@@ -149,10 +150,27 @@ figure {
   display: flex;
   justify-content: space-between;
 }
-.img-maps {
+/* .img-maps {
   padding: 155px;
-}
+} */
 /* modificacion para obtimizar */
+.location {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.location-link {
+  display: inline;
+  margin: 0 0 0 38px;
+  width: 38px;
+  height: 38px;
+  background-size: 38px 38px;
+}
+.location-link.prado {
+  background-image: url('../img/posicion.svg');
+}
 
 .footer {
   color: white;
