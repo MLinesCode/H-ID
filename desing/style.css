@@ -138,6 +138,16 @@ figure {
   margin: 2%; /* medidas preeliminares */
 } 
 
+.contacto {
+  text-align: center;
+}
+
+.contact-number {
+  margin: 1.8%;
+  font-size: 1.2em;
+  letter-spacing: 2pt;
+}
+
 .datas {
   margin: 1.5% 3.2%;
   text-align: left;
