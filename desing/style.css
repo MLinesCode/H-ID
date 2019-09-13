@@ -24,6 +24,10 @@ p {
   padding: 1.5%;
   margin: 1.5%;
 } */
+a {
+  color: black;
+  text-decoration: none;
+}
 
 figure {
   margin: 0;
@@ -140,6 +144,7 @@ figure {
 
 .contacto {
   text-align: center;
+  margin: 2.3%;
 }
 
 .contact-number {
