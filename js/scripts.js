@@ -1,6 +1,6 @@
-$("#hamburger").on("click", function(){
-  $(this).toggleClass("hamburger__open");
-  $( ".mainNav" ).toggleClass( "open" );
-  $(".topNavContainer").toggleClass( "nav-display-on" );
-  $("html").toggleClass( "fixed" );
+const menuIcon = document.querySelector(".hamburger-menu");
+const navbar = document.querySelector(".navbar");
+
+menuIcon.addEventListener("click", () => {
+  navbar.classList.toggle("change");
 });
