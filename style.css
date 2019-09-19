@@ -44,7 +44,12 @@ figure {
 }
 
 .device-image {
-  height: 150px;
+  height: 12em;
+  margin-left: 9%;
+}
+
+ul {
+  margin-left: 9%;
 }
 
 .video {
