@@ -12,11 +12,12 @@ body {
 
 h1 {
   font-size: 1.3em;
+  align-items: center;
 }
 
 p {
   margin-left: 2%;
-  font-size: .8em;
+  font-size: .89em;
 }
 
 figure {
@@ -44,12 +45,17 @@ figure {
 }
 
 .device-image {
-  height: 12em;
-  margin-left: 9%;
+  height: 12.5em;
+  margin-left: 8%;
+  margin-top: 15%;
 }
 
 ul {
-  margin-left: 9%;
+  margin-left: 5%;
+}
+
+.spects {
+  font-size: 0.8em;
 }
 
 .video {
