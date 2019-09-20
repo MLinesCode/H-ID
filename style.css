@@ -16,12 +16,17 @@ h1 {
 }
 
 p {
-  margin-left: 2%;
+  margin: 2%;
   font-size: .89em;
 }
 
 figure {
   margin: 0;
+}
+
+.features-text {
+  text-align: justify;
+  margin: 5% 9% 0 9%;
 }
 
 .logo {
@@ -36,8 +41,10 @@ figure {
 }
 
 .devi {
-  text-align: right;
-  margin-right: 25%;
+  text-align: left;
+  margin-left: 4.5%;
+  color: rgb(53, 53, 53);
+  letter-spacing: 0.04em;
 }
 
 .details {
@@ -46,12 +53,12 @@ figure {
 
 .device-image {
   height: 12.5em;
-  margin-left: 8%;
-  margin-top: 15%;
+  margin: 10% 8% 10% 
 }
 
 ul {
   margin-left: 5%;
+  margin: 11% 5% 2% 5%;
 }
 
 .spects {
@@ -60,6 +67,7 @@ ul {
 
 .video {
   /* border: 1px solid red; */
+  margin: 1.28%;
 }
 
 .event-imageContainer {
