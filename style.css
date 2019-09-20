@@ -13,20 +13,33 @@ body {
 h1 {
   font-size: 1.3em;
   align-items: center;
+  margin: 1% 14.45% 1% 4%;
 }
 
 p {
-  margin: 2%;
-  font-size: .89em;
+  margin-left: 2%;
+  font-size: 1.1em;
 }
 
 figure {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  margin-left: 5%;
+  margin: 7% 4% 2% 6%;
+  padding: 0;
+  font-size: 0.86em;
+}
+
+li {
+  margin: 2.5%;
+}
+
 .features-text {
   text-align: justify;
-  margin: 5% 9% 0 9%;
+  margin: 3% 4% 0 4%;
 }
 
 .logo {
@@ -42,27 +55,27 @@ figure {
 
 .devi {
   text-align: left;
-  margin-left: 4.5%;
+  margin: 2% 1% 1% 0%;
   color: rgb(53, 53, 53);
   letter-spacing: 0.04em;
 }
 
 .details {
   display: flex;
+  margin: 1% 0% 1% 0%;
+}
+
+.device {
+  margin: 1% 0% 1% 0%;
 }
 
 .device-image {
-  height: 12.5em;
-  margin: 10% 8% 10% 
-}
-
-ul {
-  margin-left: 5%;
-  margin: 11% 5% 2% 5%;
+  height: 13.5em;
+  margin: 2% 4% 5% 4%; 
 }
 
 .spects {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .video {
@@ -87,6 +100,48 @@ ul {
 
 .youtube-video {
   width: 100%;
+}
+
+.features-text {
+  font-size: 0.89em;
+}
+
+.resume {
+  margin: 0 0 4% 0;
+}
+
+.footer {
+  color: white;
+  background-color: #ed1c24;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  margin: 5px 10px;
+  background-size: 35px 35px;
+}
+
+.social-link.youtube {
+  background-image: url('./img/youtube-logo.svg');
+}
+
+.social-link.whatsapp {
+  background-image: url('./img/whats.svg');
+}
+
+.social-link.email {
+  background-image: url('./img/mail.svg');
 }
 
 @media screen and (max-width: 767px) {
