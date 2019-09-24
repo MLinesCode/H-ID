@@ -1,0 +1,64 @@
+{
+  "name": "HuaweiID",
+  "short_name": "HuaweiID",
+  "description": "Información para contactarse con su asesor Huawei",
+  "background_color": "#d1e8f5",
+  "theme_color": "#ed1c24",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons":[
+    {
+      "src":"./img/comuni.png",
+      "sizes":"1024x1024",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"384x384",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"256x256",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"128x128",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"96x96",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"64x64",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"32x32",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/comuni.png",
+      "sizes":"16x16",
+      "type":"image/png"
+    }
+  ]
+}
