@@ -2,7 +2,7 @@
   "name": "HuaweiID",
   "short_name": "HuaweiID",
   "description": "Información para contactarse con su asesor Huawei",
-  "background_color": "#d1e8f5",
+  "background_color": "#F6F6F6",
   "theme_color": "#ed1c24",
   "orientation": "portrait",
   "display": "standalone",
