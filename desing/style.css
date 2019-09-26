@@ -44,16 +44,53 @@ figure {
   margin: 1.3%
 }
 
-.hero-image {
-  object-fit: contain;
-  display: block;
+.circle {
+  width: 202px;
+  height: 205px;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  width: 59%;
-  padding: 1.8%
-  /* object-fit: cover;
-  display: flex; */
-  /* height: auto; */
+}
+
+
+.photo {
+  height: 100%;
+  position: relative;
+}
+
+.photo-container {
+  height: 100%;
+  filter: blur(90px);
+  transition: all .46s ease;
+  width: 100%;
+}
+
+.qr-code {
+  height: 100%;
+}
+
+.photo  .photo-banner {
+  left: 50%;
+  transition: all .46s ease;
+  position: absolute;
+  top: 25%;
+  transform: translateX(-50%);
+  height: 102%;
+}
+
+.specialist {
+  height: 100%;
+  margin: -3.2em;
+}
+
+.photo:hover > .photo-container {
+  filter: blur(0);
+}
+
+.photo:hover > .photo-banner {
+  opacity: 0;
 }
 
 .navbar {
@@ -69,6 +106,7 @@ figure {
   align-items: center;
   border-radius: 1% 0 0 1%;
   transition: right .6s cubic-bezier(1, 0, 0, 1);
+  z-index: 2;
 }
 
 .change {
