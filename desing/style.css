@@ -52,8 +52,8 @@ figure {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4%;
 }
-
 
 .photo {
   height: 100%;
@@ -63,7 +63,7 @@ figure {
 .photo-container {
   height: 100%;
   filter: blur(90px);
-  transition: all .46s ease;
+  transition: all .33s ease;
   width: 100%;
 }
 
@@ -224,7 +224,7 @@ figure {
 
 .contacto {
   text-align: center;
-  margin: 2.3%;
+  margin: 2.5%;
 }
 
 .contact-number {
