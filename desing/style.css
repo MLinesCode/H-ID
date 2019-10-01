@@ -47,7 +47,7 @@ figure {
 .circle {
   width: 202px;
   height: 205px;
-  /* border: 1px solid white; */
+  /* border: 1px solid rgb(236, 48, 48); */
   border-radius: 50%;
   overflow: hidden;
   margin-left: auto;
@@ -68,7 +68,9 @@ figure {
 }
 
 .qr-code {
-  height: 100%;
+  height: 86%;
+  margin-left: 7%;
+  margin-top: 8%;  /*  medidas para ajustar la posucion de la imagen qr */
 }
 
 .photo  .photo-banner {
