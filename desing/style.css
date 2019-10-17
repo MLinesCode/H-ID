@@ -136,6 +136,7 @@ figure {
 
 .change .line-1 {
   transform: rotateZ(-45deg) translate(-8px, 4px);
+  background-color: white;
 }
 
 .change .line-2 {
@@ -144,6 +145,7 @@ figure {
 
 .change .line-3 {
   transform: rotateZ(45deg) translate(-8px, -4px);
+  background-color: white;
 }
 
 .nav-list {
