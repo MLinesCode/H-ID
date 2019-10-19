@@ -96,7 +96,7 @@ figure {
 }
 
 .navbar {
-  width: 11em;
+  width: 13em;
   height: 100%;
   background-color: #e92626;
   opacity: 0.9;
@@ -108,7 +108,7 @@ figure {
   align-items: center;
   border-radius: 1% 0 0 1%;
   transition: right .6s cubic-bezier(1, 0, 0, 1);
-  z-index: 2;
+  z-index: 3;
 }
 
 .change {
